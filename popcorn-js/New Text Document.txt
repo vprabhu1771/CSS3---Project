@@ -1,0 +1,3 @@
+https://github.com/mozilla/popcorn-js/
+
+https://stackoverflow.com/questions/7323053/dynamically-using-the-first-frame-as-poster-in-html5-video

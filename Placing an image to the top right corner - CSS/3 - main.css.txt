@@ -1,0 +1,9 @@
+#content {
+    position: relative;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

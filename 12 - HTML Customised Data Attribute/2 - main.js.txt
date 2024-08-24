@@ -1,0 +1,16 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+    // This code will run after the HTML content is fully loaded.
+    // You can safely manipulate the DOM or perform other actions here.
+
+    const element = document.getElementById('visit');
+
+    // read value
+    const url = element.dataset.url;
+
+    // update value
+    element.dataset.url = "https://www.youtube.com/"
+
+    console.log(url);
+  
+});

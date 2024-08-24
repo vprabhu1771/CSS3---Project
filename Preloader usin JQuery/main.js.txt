@@ -1,0 +1,9 @@
+(function ($) {
+
+    ("use strict");
+    // Page loading
+    $(window).on("load", function () {
+        $("#preloader-active").delay(450).fadeOut("slow");
+    });
+    
+})(jQuery);

@@ -1,0 +1,12 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+  // This code will run after the HTML content is fully loaded.
+  // You can safely manipulate the DOM or perform other actions here.
+  setTimeout(function () {
+    var preloaderActive = document.getElementById("preloader-active");
+    preloaderActive.style.transition = "slow";
+    preloaderActive.style.opacity = 0;
+    preloaderActive.style.display = "none";
+  }, 500);
+
+});

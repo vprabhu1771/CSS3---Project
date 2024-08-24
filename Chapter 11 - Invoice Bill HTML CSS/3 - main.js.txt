@@ -1,0 +1,41 @@
+window.onload = function()
+{
+
+    // Function to calculate and update the total amount
+    function calculateTotalAmount() {
+
+        var table = document.getElementById("invoiceTable");
+
+        var rows = table.getElementsByTagName("tr");
+
+        var totalAmount = 0;
+
+        // Start from index 2 to skip the header rows
+        for (var i = 2; i < rows.length - 2; i++) 
+        {
+
+            var cells = rows[i].getElementsByTagName("td");
+
+            // Assuming the amount is in the 5th cell (index 4)
+            var amountCell = cells[4]; 
+
+            if (amountCell) 
+            {
+                totalAmount += parseFloat(amountCell.textContent || amountCell.innerText);                
+            }
+
+        }
+
+        // Update the total amount in the table
+        var totalAmountCell = document.getElementById("totalAmount");
+
+        if (totalAmountCell) 
+        {
+            // Assuming you want two decimal places
+            totalAmountCell.textContent = totalAmount.toFixed(2);
+        }
+    }
+
+    // Call the function to calculate and update total amount initially
+    calculateTotalAmount();
+}

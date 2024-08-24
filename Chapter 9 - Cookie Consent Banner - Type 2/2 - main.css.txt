@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #cecece;
+    font-size: 14px;
+}
+
+.cookies-card {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    width: 350px;
+    background-color: #242424;
+    padding: 1.5em;
+}
+
+.cookies-card * {
+    color: #fff;
+}
+
+.title {
+    font-size: 1.6em;
+    letter-spacing: 0.4px;
+    margin-bottom: 0.5em;
+}
+
+.info {
+    line-height: 1.4em;
+    letter-spacing: 0.4px;
+    margin-bottom: 2em;
+}
+
+.cta {
+    border: none;
+    outline: none;
+    padding: 0.8em 1.5em;
+    background-color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.cta:hover {
+    background-color: #3c9e66;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    transition: color 0.4s;
+}
+
+a.settings {
+    color: #bbb;
+    margin-left: 1em;
+    border-bottom: none;
+}
+
+a:hover {
+    color: #3c9e66;
+}

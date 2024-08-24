@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="hero">
+
+        <nav>
+
+            <img src="" alt="Your Logo">
+
+            <ol>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Hire Me</a>
+                </li>
+            </ol>
+
+        </nav>
+
+        <div class="detail">
+
+            <h1>I,m Prabhu <span>Full Stack Developer</span></h1>
+
+            <p>This is my official Portfolio website to showes all <br> Details and work expirens Web Development</p>
+
+            <a href="#">Download CV</a>
+        </div>
+
+        <div class="images">
+            <!-- <img src="https://source.unsplash.com/czDvRp5V2b0" alt="shape" class="shape"> -->
+            <img src="https://jdinstitute.co/wp-content/uploads/2021/03/4-4-TIPS-FOR-MENS-OFFICE-WEAR.jpg" alt="girl" class="girl">
+        </div>
+
+    </div>
+    
+</body>
+</html>

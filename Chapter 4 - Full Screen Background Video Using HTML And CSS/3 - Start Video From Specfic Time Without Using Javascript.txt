@@ -1,0 +1,18 @@
+Just add #t=[(start_time), (end_time)] to the end of your media URL. 
+
+The only setback (if you want to see it that way) is you'll need to know 
+how long your video is to indicate the end time. 
+
+Example:
+
+<video>
+    <source src="splash.mp4#t=10" type="video/mp4">
+</video>
+
+OR
+
+<video>
+    <source src="splash.mp4#t=10,20" type="video/mp4">
+</video>
+
+Notes: Not supported in IE

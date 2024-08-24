@@ -1,0 +1,16 @@
+1) Go to Inspect
+
+F12
+
+or
+
+Right Click -> Inspect
+
+
+2) Go to Storage
+
+F12
+
+or
+
+Right Click -> Inspect -> Storage -> Local Storage

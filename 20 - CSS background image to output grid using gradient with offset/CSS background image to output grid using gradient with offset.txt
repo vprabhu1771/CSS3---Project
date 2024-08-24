@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/47382059/using-css-background-image-to-output-grid-using-gradient-with-offset

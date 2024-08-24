@@ -1,0 +1,20 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+    // This code will run after the HTML content is fully loaded.
+    // You can safely manipulate the DOM or perform other actions here.
+
+    const save_btn = document.querySelector('.save-btn');
+
+    save_btn.onclick = function() {
+        this.innerHTML = "<div class='loader'></div>";
+
+        setTimeout( () => {
+
+            this.innerHTML = "Changes Saved";
+
+            this.style = "background: #f1f5f4; color: #333; pointer-events: none";
+
+        }, 2000);
+    }
+  
+});

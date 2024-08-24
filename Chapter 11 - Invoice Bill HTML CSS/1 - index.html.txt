@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <table border="1" width="60%" align="center" id="invoiceTable">
+
+        <tr>
+            <th colspan="5">
+                
+                <div align="right">
+                    Contact: +91 9944177142<br>+91 8248885192
+                </div>
+
+                <div class="store-name" align="center">            
+                    Prabhu Stationery store
+                </div>
+
+                <div align="center">
+                    Deals: We sales all types Stationery items(Offical, school, sports) gift, games etc.
+                    <br>
+                    address: Plot No 15, T.A.R Nagar, Bodi Chetty Street, thirupapuliyur, cuddalore - 607002.
+                </div>
+
+                <br><br>
+
+                <table border="0" width="100%">
+                    <tr>
+                        <td align="left">Bill No...</td>
+                        <td align="right">Date.../.../...</td>
+                    </tr>
+                </table>
+                <br><br>
+                <div align="left">
+                    M/S .............................
+                </div>
+                <br><br>
+
+            </th>
+        </tr>
+
+        <tr height="60px">
+            <th width="10%">S.NO</th>
+            <th width="40%">Item Name</th>
+            <th>Rate</th>
+            <th>Qty</th>
+            <th width="20%">
+                <div align="center">
+                    <b>Amount</b>
+                </div>
+                <br>
+                <table border="0" width="100%">
+                <tr>
+                    <td align="left">Rs.</td>
+                    <td align="right">P</td>
+                </tr>
+            </table>
+            </th>
+        </tr>
+
+        <tr height="5">
+            <td>1</td>
+            <td>Natraj Pencil</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+        </tr>
+
+        <tr height="5">
+            <td>2</td>
+            <td>TNPL 1 REM</td>
+            <td>240</td>
+            <td>1</td>
+            <td>240</td>
+        </tr>
+        
+
+        <tr height="60px">
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th colspan="2">Total Amount</th>        
+            <th id="totalAmount">&nbsp;</th>
+        </tr>
+
+        <tr height="60px">
+            <th colspan="5" align="right">
+                <span style="font-size: 1em;">
+                    Prabhu Stationery store <br>
+                    Authorized Signature
+                </span>
+            </th>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

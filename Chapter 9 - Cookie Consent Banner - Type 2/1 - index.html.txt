@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  
+    <div class="cookies-card">
+
+        <p class="title">Cookies Consent</p>
+
+        <p class="info">
+            By using this website, you automatically accept that we use cookies. <a href="#">Read more</a>
+        </p>
+
+        <button class="cta">Accept all</button>
+
+        <a href="#" class="settings">Cookies Settings</a>
+
+    </div>
+    
+</body>
+</html>
