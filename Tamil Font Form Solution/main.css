@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'TamilFont';
+    /* src: url('fonts/TamilFont.ttf') format('truetype'); */
+    src: url('fonts/TAM_51.TTF') format('truetype');
+}
+
+body {
+    font-family: 'TamilFont', sans-serif;
+}
+
+input[type="text"],textarea  {
+    font-family: 'TamilFont', sans-serif;
+    font-size: 16px;
+}
